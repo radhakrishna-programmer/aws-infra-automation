@@ -1,4 +1,4 @@
-# Terraform files
+
 *.tfstate
 *.tfstate.*
 .terraform/
@@ -9,27 +9,11 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 *.backup
-
-# Terraform variables containing sensitive info
 terraform.tfvars
 *.auto.tfvars
 
-# SSH keys (never commit your private key!)
+
 *.pem
 *.pub
 
-# Ansible cache and logs
-*.retry
-*.log
-__pycache__/
-*.pyc
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE / editor files
-.vscode/
-.idea/
-*.swp
 
